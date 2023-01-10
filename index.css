@@ -1,11 +1,9 @@
 #ocean {
     width: 30%;
     position: absolute;
-    left: 660px;
+    left: 665.5px;
     top:302px;
     
-   
-     
 }
 
 #background {
@@ -19,7 +17,7 @@
    background: linear-gradient(to bottom right, #2ba335, #174386);  
    cursor:crosshair; 
    margin-top: 378px;
-   margin-left: 890px;
+   margin-left: 876px;
 }
 #overskrift1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
