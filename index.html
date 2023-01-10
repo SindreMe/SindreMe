@@ -7,14 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DocumentZ</title>
 </head>
-<body>
+<body id="background">
     
     <h1>Noob</h1>
     <h2>x2</h2>
     <h3>x3</h3>
     <h4>x4</h4>
-        <button>Funker ikke</button>
+        <button onclick="endrebakgrunn()">Funker ikke</button>
+
         <img id='ocean' src='bilde1.jpg'>
    
 </body>
+<script>
+    var redmode = false
+    function endrebakgrunn()
+    {
+        if (redmode == false) {
+            document.getElementById('background').style.backgroundColor = 'red'
+            redmode = true
+        }
+        else {
+            document.getElementById('background').style.backgroundColor = 'white'
+            redmode = false
+        }
+
+    }
+</script>
 </html>
