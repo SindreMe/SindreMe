@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DocumentZ</title>
 </head>
-<body id="background">
-    
-    <h1>Noob</h1>
-    <h2>x2</h2>
-    <h3>x3</h3>
-    <h4>x4</h4>
-        <button onclick="endrebakgrunn()">Funker ikke</button>
 
-        <img id='ocean' src='bilde1.jpg'>
-   
+<body id="background">
+    <div id="tekst">
+
+        <center>
+            <h1 id="overskrift1">Noob</h1>
+            <h2 id="overskrift2">x2</h2>
+            <h3 id="overskrift3">x3</h3>
+            <h4 id="overskrift4">x4</h4>
+        </center>
+    </div>
+    <button id="button-change-color" onclick="endrebakgrunn()">Funker ikke</button>
+
+    <img id='ocean' src='bilde1.jpg'>
 </body>
 <script>
     var redmode = false
-    function endrebakgrunn()
-    {
+    function endrebakgrunn() {
         if (redmode == false) {
             document.getElementById('background').style.backgroundColor = 'red'
+            document.getElementById('tekst').style.color = 'blue'
+            document.getElementById("button-change-color").style.backgroundColor = "blue"
             redmode = true
         }
         else {
             document.getElementById('background').style.backgroundColor = 'white'
+            document.getElementById('tekst').style.color = 'black'
+            document.getElementById("button-change-color").style.backgroundColor = "white"
             redmode = false
         }
 
     }
 </script>
+
 </html>
