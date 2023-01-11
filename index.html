@@ -10,7 +10,7 @@
 </head>
 
 <body id="background">
-    <div id="tekst">
+    <div id="text">
 
         <center>
             <h1 id="overskrift1">Noob</h1>
@@ -21,25 +21,11 @@
     </div>
     <button id="button-change-color" onclick="endrebakgrunn()">Funker ikke</button>
 
-    <img id='ocean' src='bilde1.jpg'>
-</body>
-<script>
-    var redmode = false
-    function endrebakgrunn() {
-        if (redmode == false) {
-            document.getElementById('background').style.backgroundColor = 'red'
-            document.getElementById('tekst').style.color = 'blue'
-            document.getElementById("button-change-color").style.backgroundColor = "blue"
-            redmode = true
-        }
-        else {
-            document.getElementById('background').style.backgroundColor = 'white'
-            document.getElementById('tekst').style.color = 'black'
-            document.getElementById("button-change-color").style.backgroundColor = "white"
-            redmode = false
-        }
+    <img id='moon1' src='kvart1.png'>
+    <img id="moon2" src="halv2.png">
+    <img id="moon3" src="hel3.png">
 
-    }
-</script>
+</body>
+<script src="./script.js"></script>
 
 </html>
