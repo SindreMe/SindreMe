@@ -1,25 +1,72 @@
 #moon1 {
-    width: 30%;
+    width: 25%;
     height: auto;
     position: absolute;
     left: 30%;
-    top: 54%;
+    top: 40%;
     transform: translate(-50%, -50%);
 }
 #moon2 {
-    width: 30%;
+    width: 25%;
     position: absolute;
     left: 50%;
-    top: 54%;
+    top: 40%;
     transform: translate(-50%, -50%);
-
 }
 #moon3 {
-    width: 30%;
+    width: 25%;
     height: auto;
     position: absolute;
     left: 70%;
-    top: 54%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+#moon4 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+#moon5 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+#moon6 {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 60%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+}
+#moon7 {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+}
+#moon8 {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 59%;
+    transform: translate(-50%, -50%);
+}
+#moon9 {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    left: 80%;
+    top: 59%;
     transform: translate(-50%, -50%);
 }
 #background {
@@ -32,29 +79,34 @@
    background-color: white;
    background: linear-gradient(to bottom right, #2ba335, #174386);  
    cursor:crosshair;
-   position: fixed; 
-   bottom: 30px;
-   margin-left: 870px;
-   
+   position: absolute; 
+   top: 75%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 1;
 }
 #overskrift1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 50px;
     line-height: 10px;
+    opacity: 60%;
 }
 #overskrift2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
     line-height: 10px;
+    opacity: 60%;
 }
 #overskrift3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     line-height: 20px;
     line-height: 10px;
+    opacity: 60%;
 }
 #overskrift4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 35px;
     line-height: 10px;
+    opacity: 60%;
 }
