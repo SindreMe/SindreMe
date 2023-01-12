@@ -1,5 +1,5 @@
 #moon1 {
-    width: 25%;
+    width: 10%;
     height: auto;
     position: absolute;
     left: 30%;
@@ -7,14 +7,14 @@
     transform: translate(-50%, -50%);
 }
 #moon2 {
-    width: 25%;
+    width: 9%;
     position: absolute;
     left: 50%;
     top: 40%;
     transform: translate(-50%, -50%);
 }
 #moon3 {
-    width: 25%;
+    width: 11%;
     height: auto;
     position: absolute;
     left: 70%;
@@ -22,7 +22,7 @@
     transform: translate(-50%, -50%);
 }
 #moon4 {
-    width: 20%;
+    width: 5%;
     height: auto;
     position: absolute;
     left: 40%;
@@ -30,7 +30,7 @@
     transform: translate(-50%, -50%);
 }
 #moon5 {
-    width: 20%;
+    width: 5%;
     height: auto;
     position: absolute;
     left: 50%;
@@ -38,7 +38,7 @@
     transform: translate(-50%, -50%);
 }
 #moon6 {
-    width: 20%;
+    width: 7%;
     height: auto;
     position: absolute;
     left: 60%;
@@ -46,27 +46,27 @@
     transform: translate(-50%, -50%);
 }
 #moon7 {
-    width: 35%;
+    width: 15%;
     height: auto;
     position: absolute;
     left: 20%;
-    top: 59%;
+    top: 65%;
     transform: translate(-50%, -50%);
 }
 #moon8 {
-    width: 35%;
+    width: 14%;
     height: auto;
     position: absolute;
     left: 50%;
-    top: 59%;
+    top: 65%;
     transform: translate(-50%, -50%);
 }
 #moon9 {
-    width: 35%;
+    width: 16%;
     height: auto;
     position: absolute;
     left: 80%;
-    top: 59%;
+    top: 65%;
     transform: translate(-50%, -50%);
 }
 #background {
@@ -77,10 +77,10 @@
 }
 #button-change-color {
    background-color: white;
-   background: linear-gradient(to bottom right, #2ba335, #174386);  
+   background: linear-gradient(to bottom right, red, #174386);  
    cursor:crosshair;
    position: absolute; 
-   top: 75%;
+   top: 85%;
    left: 50%;
    transform: translate(-50%, -50%);
    z-index: 1;
