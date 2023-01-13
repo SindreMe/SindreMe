@@ -1,28 +1,28 @@
 #moon1 {
-    width: 10%;
+    width: 12%;
     height: auto;
     position: absolute;
     left: 30%;
-    top: 40%;
+    top: 45%;
     transform: translate(-50%, -50%);
 }
 #moon2 {
-    width: 9%;
+    width: 12%;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 46%;
     transform: translate(-50%, -50%);
 }
 #moon3 {
-    width: 11%;
+    width: 14%;
     height: auto;
     position: absolute;
     left: 70%;
-    top: 40%;
+    top: 46%;
     transform: translate(-50%, -50%);
 }
 #moon4 {
-    width: 5%;
+    width: 7%;
     height: auto;
     position: absolute;
     left: 40%;
@@ -30,7 +30,7 @@
     transform: translate(-50%, -50%);
 }
 #moon5 {
-    width: 5%;
+    width: 7%;
     height: auto;
     position: absolute;
     left: 50%;
@@ -38,7 +38,7 @@
     transform: translate(-50%, -50%);
 }
 #moon6 {
-    width: 7%;
+    width: 9%;
     height: auto;
     position: absolute;
     left: 60%;
@@ -50,23 +50,23 @@
     height: auto;
     position: absolute;
     left: 20%;
-    top: 65%;
+    top: 71%;
     transform: translate(-50%, -50%);
 }
 #moon8 {
-    width: 14%;
+    width: 15%;
     height: auto;
     position: absolute;
     left: 50%;
-    top: 65%;
+    top: 74%;
     transform: translate(-50%, -50%);
 }
 #moon9 {
-    width: 16%;
+    width: 18.5%;
     height: auto;
     position: absolute;
     left: 80%;
-    top: 65%;
+    top: 73%;
     transform: translate(-50%, -50%);
 }
 #background {
@@ -80,7 +80,7 @@
    background: linear-gradient(to bottom right, red, #174386);  
    cursor:crosshair;
    position: absolute; 
-   top: 85%;
+   top: 93%;
    left: 50%;
    transform: translate(-50%, -50%);
    z-index: 1;
